@@ -1,0 +1,189 @@
+body{
+    background-image: linear-gradient(to right, rgb(10, 0, 63), rgb(18, 0, 35));
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+
+}
+
+.planets{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color:rgb(196, 196, 196);
+}
+
+.pInfo{
+    margin: 0%;
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    text-align: right;
+}
+.pInfo h1{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.pInfo h2{
+    color: gold;
+    margin-top: -1rem;
+    font-size: 30px;
+}
+
+section:first-of-type{
+    margin: 0%;
+    position: absolute;
+    left: 0%;
+    margin-left: -40rem;
+    border-radius: 150%;
+    border-right: 400px solid;
+    border-left: 400px solid;
+    border-top: 400px solid;
+    border-bottom: 400px solid;
+    border-color: yellow;
+}
+
+section:nth-of-type(2){
+    margin-left: 16rem;
+    border-radius: 100%;
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: gray;
+
+}
+
+section:nth-of-type(3){
+    margin-left: 4rem;
+    border-radius: 100%;
+    border-right: 14px solid;
+    border-left: 14px solid;
+    border-top: 14px solid;
+    border-bottom: 14px solid;
+    border-color: rgb(192, 192, 192);
+
+}
+
+section:nth-of-type(4){
+    margin-left: 4rem;
+    border-radius: 100%;
+    border-right: 14px solid;
+    border-left: 14px solid;
+    border-top: 14px solid;
+    border-bottom: 14px solid;
+    border-color: rgb(0, 123, 255);
+
+}
+
+section:nth-of-type(5){
+    margin-left: 4rem;
+    border-radius: 100%;
+    border-right: 9px solid;
+    border-left: 9px solid ;
+    border-top: 9px solid ;
+    border-bottom: 9px solid ;
+    border-color: rgb(255, 46, 46);
+
+}
+
+section:nth-of-type(6){
+    margin-left: 6rem;
+    border-radius: 100%;
+    border-right: 100px solid;
+    border-left: 100px solid;
+    border-top: 100px solid ;
+    border-bottom: 100px solid ;
+    border-color: rgb(255, 158, 31);
+}
+
+section:nth-of-type(7){
+    margin-left: 6rem;
+    border-radius: 100%;
+    border-right: 80px solid;
+    border-left: 80px solid;
+    border-top: 80px solid;
+    border-bottom: 80px solid ;
+    border-color: rgb(255, 201, 131);
+}
+
+section:nth-of-type(8){
+    margin-left: 6rem;
+    border-radius: 100%;
+    border-right: 40px solid ;
+    border-left: 40px solid ;
+    border-top: 40px solid ;
+    border-bottom: 40px solid ;
+    border-color: rgb(182, 242, 255);
+}
+
+section:nth-of-type(9){
+    margin-left: 6rem;
+    border-radius: 100%;
+    border-right: 40px solid;
+    border-left: 40px solid ;
+    border-top: 40px solid ;
+    border-bottom: 40px solid ;
+    border-color: rgb(117, 155, 164);
+}
+
+.pInfoBoxOm{
+    display: none;
+    border-top: solid 1px rgba(76, 76, 76, 0.6);
+    width: 50%;
+}
+
+.pInfoBoxDist{
+    display: none;
+    border-top: solid 1px rgba(76, 76, 76, 0.6);
+    width: 50%;
+}
+
+.pInfoBoxTemp{
+    display: none;
+    border-bottom: solid 1px rgba(76, 76, 76, 0.6);
+    width: 50%;
+}
+
+.pInfoBoxTemp2{
+    display: none;
+    border-bottom: solid 1px rgba(76, 76, 76, 0.6);
+    width: 50%;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: left;
+}
+.box2 {
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: left;
+}
+
+.pInfoBoxMoons {
+    margin-top: -5rem;
+    width: 50%;
+    text-align: left;
+    overflow-wrap: break-word;
+}
